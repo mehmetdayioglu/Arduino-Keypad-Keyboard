@@ -8,6 +8,7 @@ This project is designed for use with an Arduino Pro Micro and a 4x4 keypad matr
 - Connectors and wires
   
 ## Connection Diagram
+- Row pins and column pins are defined in the diagram. Make sure to connect the keypad matrix to these pins on the Arduino Pro Micro.
 ![11](https://github.com/user-attachments/assets/f851d687-fca5-45e9-a297-03320c17531e)
 
 ## Libraries
@@ -23,9 +24,6 @@ This project is designed for use with an Arduino Pro Micro and a 4x4 keypad matr
 1. Upload the code to the Arduino Pro Micro.
 2. Connect the 4x4 keypad matrix to the Arduino according to the pin configuration specified in the code.
 3. The Arduino will act as a keyboard, sending keystrokes to the connected computer based on the keypad input.
-
-## Pin Configuration
-- Row pins and column pins are defined in the code. Make sure to connect the keypad matrix to these pins on the Arduino Pro Micro.
 
 ## Example
 If you press a key on the 4x4 keypad, the corresponding character will be sent to the connected computer as if it were typed on a keyboard.
