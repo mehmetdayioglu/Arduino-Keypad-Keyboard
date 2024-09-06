@@ -1,2 +1,30 @@
-# Arduino-Keypad-Keyboard
-Arduino-Keypad-Keyboard
+# Arduino Pro Micro 4x4 Keypad Matrix Keyboard Emulation
+
+This project is designed for use with an Arduino Pro Micro and a 4x4 keypad matrix. The code enables the Arduino to read input from the keypad and emulate keyboard input, sending keystrokes to a connected computer based on the pressed keys.
+
+## Components
+- Arduino Pro Micro
+- 4x4 Keypad Matrix
+- Connectors and wires
+
+## Libraries
+- `Keypad` library
+- `Keyboard` library
+
+## Code Functionality
+- **Keypad Input**: The code reads the input from a 4x4 keypad matrix.
+- **Keyboard Emulation**: Based on the pressed key, the Arduino sends corresponding keystrokes to the computer.
+- **Debouncing**: Implemented to ensure accurate keypress detection and prevent multiple signals from a single press.
+
+## Usage
+1. Upload the code to the Arduino Pro Micro.
+2. Connect the 4x4 keypad matrix to the Arduino according to the pin configuration specified in the code.
+3. The Arduino will act as a keyboard, sending keystrokes to the connected computer based on the keypad input.
+
+## Pin Configuration
+- Row pins and column pins are defined in the code. Make sure to connect the keypad matrix to these pins on the Arduino Pro Micro.
+
+## Example
+If you press a key on the 4x4 keypad, the corresponding character will be sent to the connected computer as if it were typed on a keyboard.
+
+For further details and customization, refer to the code comments and the documentation for the `Keypad` and `Keyboard` libraries.
