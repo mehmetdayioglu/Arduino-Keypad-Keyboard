@@ -14,7 +14,7 @@ This project is designed for use with an Arduino Pro Micro and a 4x4 keypad matr
 ## Code Functionality
 - **Keypad Input**: The code reads the input from a 4x4 keypad matrix.
 - **Keyboard Emulation**: Based on the pressed key, the Arduino sends corresponding keystrokes to the computer.
-- **Debouncing**: Implemented to ensure accurate keypress detection and prevent multiple signals from a single press.
+- **Keystroke Repetition**: When a key is held down, the code continuously sends the keystroke to the computer, emulating the behavior of a real keyboard.
 
 ## Usage
 1. Upload the code to the Arduino Pro Micro.
