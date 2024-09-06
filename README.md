@@ -6,8 +6,9 @@ This project is designed for use with an Arduino Pro Micro and a 4x4 keypad matr
 - Arduino Pro Micro
 - 4x4 Keypad Matrix
 - Connectors and wires
-
-- ![11](https://github.com/user-attachments/assets/f851d687-fca5-45e9-a297-03320c17531e)
+  
+## Connection Diagram
+![11](https://github.com/user-attachments/assets/f851d687-fca5-45e9-a297-03320c17531e)
 
 ## Libraries
 - `Keypad` library
