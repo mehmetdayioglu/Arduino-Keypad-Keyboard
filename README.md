@@ -10,6 +10,7 @@ This project is designed for use with an Arduino Pro Micro and a 4x4 keypad matr
 ## Connection Diagram
 - Row pins and column pins are defined in the diagram. Make sure to connect the keypad matrix to these pins on the Arduino Pro Micro.
 
+
 ![11](https://github.com/user-attachments/assets/f851d687-fca5-45e9-a297-03320c17531e)
 
 ## Libraries
