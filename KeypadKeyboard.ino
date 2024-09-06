@@ -17,7 +17,7 @@ char customKeymap[ROWS][COLS] = {
 Keypad keypad = Keypad(makeKeymap(customKeymap), rowPins, colPins, ROWS, COLS);
 
 void setup() {
-  Serial.begin(9600);
+  
   Keyboard.begin();
 }
 
