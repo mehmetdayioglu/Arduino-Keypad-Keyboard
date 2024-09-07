@@ -17,7 +17,7 @@ char customKeymap[ROWS][COLS] = {
 Keypad keypad = Keypad(makeKeymap(customKeymap), rowPins, colPins, ROWS, COLS);
 
 void setup() {
-  
+
   Keyboard.begin();
 }
 
@@ -26,9 +26,11 @@ void loop() {
   char key = keypad.getKey();
   int state = keypad.getState();
 
-  if ( state!=0 ) { 
-    Keyboard.press(key);} 
-    
-  else { 
-    Keyboard.releaseAll();}
+  if (state) {
+    Keyboard.press(key);
+  }
+
+  else {
+    Keyboard.releaseAll();
+  }
 }
