@@ -2,7 +2,7 @@
 #include <Keyboard.h>
 
 // 4x4 tuş matris pin tanımlamaları
-const int RowPinMap[4] = {2, 3, 4, 5};   
+const int RowPinMap[4] = {2, 3, 4, 5};   // Satır pinleri
 const int ColPinMap[4] = {6, 7, 8, 9};   // Sütun pinleri
 
 // Tek bir tuş haritası
